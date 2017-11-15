@@ -45,6 +45,6 @@ run `../irmain` to try out different queries.
 
 ### For Linux, use the version under irslinux.tar:
 
-It is a little bit different from the Unix version. It works on Linux Mandrake which uses gcc-2.95.2 and g++-2.95.2. 
+It is a little bit different from the Unix version. It works on Linux **Mandrake** which uses gcc-2.95.2 and g++-2.95.2. 
 
-For other linux versions, the location of "ndbm.h" may change. In Mandrake we use "#include<db1/ndbm.h>" (in "filesys1.h"). You may probably (maybe, not sure) need to change two lines in Makefile for generating irmain and irindex.  In Solaris, the ndbm files are stored as .dir and .pag. But in Mandrake, the files are stored only as .db.  After changing the path of including the ndbm.h, the compiling procedure should be similar as mentioned above.
+For other linux versions, the location of "ndbm.h" may change. In **Mandrake** we use "#include<db1/ndbm.h>" (in "filesys1.h"). You may probably (maybe, not sure) need to change two lines in Makefile for generating irmain and irindex.  In **Solaris**, the ndbm files are stored as .dir and .pag. But in **Mandrake**, the files are stored only as .db.  After changing the path of including the ndbm.h, the compiling procedure should be similar as mentioned above.
