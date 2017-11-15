@@ -34,5 +34,3 @@ to change two lines in Makefile for generating irmain and irindex.  In
 Solaris, the ndbm files are stored as .dir and .pag. But in Mandrake, the
 files are stored only as .db.  After changing the path of including the
 ndbm.h, the compiling procedure should be similar as mentioned above.
-
-
